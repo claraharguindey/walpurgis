@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ella {
+  position: fixed;
+  z-index: 19;
+  width: 20%;
+  bottom: 0;
+  left: -10px;
+}
+
+.servidores {
+  position: fixed;
+  z-index: 19;
+  width: 25%;
+  bottom: 0;
+  opacity: 0.8;
+  left: -35px;
+}
+
+.background-site {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.background-site iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: scroll;
+}
+
+.shade {
+  z-index: 19;
+  position: fixed;
+  height: 300px;
+  background-image: linear-gradient(black, rgba(255, 0, 0, 0));
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  pointer-events: none
+}
+
+.shade2 {
+  z-index: 18;
+  position: fixed;
+  width: 300px;
+  background-image: linear-gradient(to left, black, rgba(255, 0, 0, 0));
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  pointer-events: none
+}
+
+.shade3 {
+  z-index: 18;
+  position: fixed;
+  width: 300px;
+  background-image: linear-gradient(to right, black, rgba(255, 0, 0, 0));
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  pointer-events: none
+}
+
+/* @end */
