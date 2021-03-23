@@ -7,6 +7,9 @@
 html {
   width: 100%;
   height: 100%;
+  background-image: url("background.gif");
+  background-position: center;
+  background-size: 300px;
 }
 
 body {
@@ -18,9 +21,10 @@ body {
 .ella {
   position: fixed;
   z-index: 19;
-  width: 20%;
+  width: 30%;
   bottom: 0;
-  left: -10px;
+  right: -10px;
+  opacity:0.35;
 }
 
 .servidores {
